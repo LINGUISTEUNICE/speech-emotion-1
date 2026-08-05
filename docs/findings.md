@@ -1,10 +1,7 @@
-# Findings — Can Pitch and Energy Alone Tell Happy, Sad, and Angry Apart?
+# Findings: Can Pitch and Energy Alone Tell Happy, Sad, and Angry Apart?
 
 This is a small first attempt at the kind of multimodal-communication analysis
-MULTICOM focuses on — I kept it deliberately narrow: **one modality (speech
-audio), three emotions, four speakers, one simple model.** The goal wasn't a
-strong result, it was to actually get hands dirty with the kind of feature
-extraction and reasoning this field uses, and see what the data itself shows.
+
 
 ## What I did
 
@@ -49,16 +46,13 @@ features has an easier time separating "energetic vs. calm" than "positive
 vs. negative." That's a genuinely useful thing to have found by actually
 running the numbers, not just something I read.
 
-## What I'd want to check next (and why I didn't yet)
+## What I'd want to check next 
 
-I kept this round to audio only on purpose — the dataset I could actually
-access from the environment I was working in only had audio, not video, so
-adding facial expression or gesture wasn't possible without downloading a
-much larger dataset first. The obvious next step is to pull the matching
+I kept this round to audio only The  next step is to pull the matching
 video clips for these same files, extract basic facial features (eyebrow/mouth
 movement via MediaPipe), and see whether the same happy/sad confusion the
 audio model shows also shows up visually, or whether the face actually
-disambiguates it — which would be a much more direct "multimodal" comparison than what I have here.
+disambiguates it 
 
 ## Honest limitations
 
