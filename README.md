@@ -1,11 +1,10 @@
 # Speech Emotion — A First Look
 
-A small, hands-on first project exploring the kind of multimodal
-communication analysis MULTICOM focuses on. This round is scoped to a single
-modality (speech audio) on purpose — see [`docs/findings.md`](docs/findings.md)
-for what I found and why I kept it this narrow.
+A small, hands-on first project exploring this kind of multimodal
+communication analysis. This round is scoped to a single
+modality (speech audio)  — see [`docs/findings.md`](docs/findings.md)
 
-**Not a research project — a "getting my hands dirty with the tools" project.**
+
 
 ## What's here
 
@@ -46,9 +45,8 @@ Livingstone SR, Russo FA (2018). The Ryerson Audio-Visual Database of
 Emotional Speech and Song (RAVDESS). Licensed CC BY-NC-SA 4.0. Only a small
 subset (4 of 24 actors, 3 of 8 emotions) is included here.
 
-## Next step (not done yet, on purpose)
+## Next step 
 
 Pull the matching video for these same actors/emotions and add facial
 features (MediaPipe FaceMesh) to see whether visual cues resolve the
-happy/sad confusion that shows up in the audio-only model — see the end of
-`docs/findings.md` for why this is the natural next step.
+happy/sad confusion that shows up in the audio-only model
